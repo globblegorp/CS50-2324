@@ -14,9 +14,15 @@ int main(void)
 
     // Determine the number of quarters needed
 
+    // The remaining cents after removing quarters
+
     // Determine the number of dimes needed
 
+    // The remaining cents after removing dimes
+
     // Determine the number of nickles needed
+
+    // The remaining cents after removing nickles
 
     // Determine the number of pennies needed
 
