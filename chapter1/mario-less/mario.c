@@ -7,7 +7,10 @@ int main(void)
 
     // Print the triangle
     // For each row
+    for()
         // Print the number of spaces
-        
+        for()
+
         // Print the number of #
+        for()
 }
