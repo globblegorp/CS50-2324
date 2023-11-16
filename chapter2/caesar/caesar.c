@@ -1,6 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
+bool only_digits(string s);
+char rotate(char c, int n);
+
 int main(int argc, string argv[])
 {
     // Make sure program was run with just one command-line argument
@@ -14,4 +17,20 @@ int main(int argc, string argv[])
     // For each character in the plaintext:
 
         // Rotate the character if it's a letter
+}
+
+/**
+ * Returns true if a string contains only digits as characters
+*/
+bool only_digits(string s)
+{
+
+}
+
+/**
+ * Given a character and an integer, returns the "rotated" character
+*/
+char rotate(char c, int n)
+{
+
 }
