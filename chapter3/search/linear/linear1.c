@@ -12,9 +12,9 @@ int main(void)
     string names[] = {"Tyler", "Mia", "Tommy", "Jameson", "Jacylnn"};
 
     // Search for Jameson
-    for(int i = 0; i < 6; i++)
+    for(int i = 0; i < 5; i++)
     {
-        if(strcmp(names[i], "Jameson") == 0)
+        if(strcmp(names[i], "Declan") == 0)
         {
             printf("Found at index %i\n.", i);
             return 0;
