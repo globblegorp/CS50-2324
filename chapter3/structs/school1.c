@@ -1,6 +1,6 @@
 /**
- * Use a data structure to hold student names and GPAs. Print out
- * the information.
+ * Use a data structure to hold student names and GPAs. Save information
+ * to a csv file.
 */
 
 #include <cs50.h>
