@@ -82,5 +82,8 @@ void add_items(void)
 // TODO: Search through the menu array to find an item's cost
 float get_cost(string item)
 {
+    // If the item is in the array, return the price
+
+    // Else, print invalid, return 0.0 (because there is no cost!)
     return 0.0;
 }
