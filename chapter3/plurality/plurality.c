@@ -65,13 +65,21 @@ int main(int argc, string argv[])
 // Update vote totals given a new vote
 bool vote(string name)
 {
-    // TODO
+    // Look for name
+        // If found
+            // Increase that vote by 1
+            // Return true for successful vote
+
+    // Otherwise, person not found, return false for unsuccessful vote
     return false;
 }
 
 // Print the winner (or winners) of the election
 void print_winner(void)
 {
-    // TODO
+    // Look for the most number of votes
+    // Loop through to find the candidate(s) with the most number of votes
+        // Print their name
+        
     return;
 }
