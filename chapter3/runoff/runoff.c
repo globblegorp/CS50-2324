@@ -127,7 +127,11 @@ int main(int argc, string argv[])
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {
-    // TODO
+    // Look for a candidate called name in candidates[]
+        // If candidate found
+            // Update preferences[][]
+            // Return true
+    // Candidate not found, return false
     return false;
 }
 
