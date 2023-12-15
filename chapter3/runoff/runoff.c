@@ -82,6 +82,18 @@ int main(int argc, string argv[])
         printf("\n");
     }
 
+    // Check to make sure that preferences is all filled in
+    // DELETE BEOFRE SUBMITTING
+    // Print array to the screen
+    for (int i = 0; i < voter_count; i++)
+    {
+        for (int j = 0; j < candidate_count; j++)
+        {
+            printf("%i\t", preferences[i][j]);
+        }
+        printf("\n");
+    }
+
     // Keep holding runoffs until winner exists
     while (true)
     {
