@@ -164,6 +164,11 @@ void tabulate(void)
 bool print_winner(void)
 {
     // TODO
+    // For each candidate in candidates[]
+        // If have more than half the votes
+            // Print the winner's name
+            // Return true
+    // Return false if no winner
     return false;
 }
 
