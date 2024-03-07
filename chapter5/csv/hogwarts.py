@@ -21,4 +21,7 @@ with open("hogwarts.csv", "r") as house_list:
         house = row[1]
         houses[house] += 1
 
-print(houses)
+#print(houses)
+for house in houses:
+    count = houses[house]
+    print(f"{house}: {count}")
